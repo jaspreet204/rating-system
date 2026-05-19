@@ -6,10 +6,10 @@ function Dialog(props){
     return(
         <section className="popup-screen">
             <div className="popup-card">
-                <h2>Hello</h2>
-                <p>Please select your rating</p>
+                <h2>Welcome!</h2>
+                <p>Please rate your Experience</p>
                 <button className="close-button" onClick={closeBox}>
-                 Close
+                 Start Rating
                 </button>
             </div>
         </section>
