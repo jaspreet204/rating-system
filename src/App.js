@@ -7,6 +7,7 @@ function App() {
     const [show, setShow] = useState(true);
     const close = () => {
         setShow(false);
+    }
   return (
      <>
       <section className="main-page">
@@ -17,6 +18,5 @@ function App() {
       </>
     );
   }
-}
 
 export default App;
