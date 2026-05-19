@@ -1,3 +1,75 @@
 @charset "utf 8";
 @import './reset.css';
 
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+}
+
+.main-page{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main-page h1{
+    margin-bottom: 20px;
+}
+
+.star-part{
+    margin-top: 20px;
+}
+
+.star-line{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.rating-word{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.popup-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-card{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.popup-card h2{
+    margin-bottom: 10px;
+}
+
+.popup-card p{
+    margin-bottom: 15px;
+}
+
+.close-button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.close-button:hover{
+    background-color: #1d4ed8;
+}
