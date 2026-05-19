@@ -11,9 +11,9 @@ function App() {
   return (
      <>
       <section className="main-page">
+        {show && ( <Dialog close={close}/>)}
         <h1>Star Rating System</h1>
-         <StarRating />
-          {show && ( <Dialog close={close}/>)}
+          <StarRating />
        </section>
       </>
     );
